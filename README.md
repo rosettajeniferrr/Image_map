@@ -247,17 +247,19 @@ p{
 
 # OUTPUT
 ~~~~~~~
-![alt text](<mapp_proj/mapp_app/static/map output.png>)
+Image_map/map output.png
 
-![alt text](<mapp_proj/mapp_app/static/mount output.png>)
+Image_map/mount output.png
 
-![alt text](<mapp_proj/mapp_app/static/airport output.png>)
+Image_map/airport output.png
 
-![alt text](<mapp_proj/mapp_app/static/tnagar output.png>)
+Image_map/tnagar output.png
 
-![alt text](<mapp_proj/mapp_app/static/santhome output.png>)
+Image_map/santhome output.png
 
-![alt text](<mapp_proj/mapp_app/static/beach output.png>)
+Image_map/beach output.png
+
 ~~~~~~~
+
 # RESULT
 The program for implementing image maps using HTML is executed successfully.
