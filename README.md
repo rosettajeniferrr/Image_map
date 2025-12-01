@@ -286,12 +286,12 @@ def beach(request):
 # OUTPUT
 ~~~~~~~
 
-mapout.png
-mountout.png
-airportout.png
-tnagarout.png
-santhomeout.png
-beachout.png
+![Alt text](<Image_map/mapout.png>)
+![Alt text](<Image_map/mountout.png>)
+![Alt text](<Image_map/airportout.png>)
+![Alt text](<Image_map/tnagarout.png>)
+![Alt text](<Image_map/santhomeout.png>)
+![Alt text](<Image_map/beachout.png>)
 
 ~~~~~~~
 
