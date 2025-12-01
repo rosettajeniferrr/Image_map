@@ -284,13 +284,12 @@ def beach(request):
 
 
 # OUTPUT
-~~~~~~~
-
-![alt text](<santhomeout.png>)
-tnagarout.png
-
-
-~~~~~~~
+![alt text](mapout.png)
+![alt text](mountout.png)
+![alt text](airportout.png)
+![alt text](tnagarout.png)
+![alt text](santhomeout.png)
+![alt text](beachout.png)
 
 # RESULT
 The program for implementing image maps using HTML is executed successfully.
