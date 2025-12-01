@@ -286,20 +286,12 @@ def beach(request):
 # OUTPUT
 ~~~~~~~
 
-
-Image_map/mapp_proj/mapout.png
-
-Image_map/mapp_proj/mountout.png
-
-Image_map/mapp_proj/airportout.png
-
-Image_map/mapp_proj/tnagarout.png
-
-Image_map/mapp_proj/santhomeout.png
-
-Image_map/mapp_proj/beachout.png
-
-
+mapout.png
+mountout.png
+airportout.png
+tnagarout.png
+santhomeout.png
+beachout.png
 
 ~~~~~~~
 
