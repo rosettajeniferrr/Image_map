@@ -285,17 +285,17 @@ def beach(request):
 
 # OUTPUT
 ~~~~~~~
-![alt text](<Image_map/map output.png>)
+![Map Output](Image_map/map output.png)
 
-![alt text](<Image_map/mount output.png>)
+![Mount Output](Image_map/mount output.png)
 
-![alt text](<Image_map/airport output.png>)
+![Airport Output](Image_map/airport output.png)
 
-![alt text](<Image_map/tnagar output.png>)
+![T Nagar Output](Image_map/tnagar output.png)
 
-![alt text](<Image_map/santhome output.png>)
+![Santhome Output](Image_map/santhome output.png)
 
-![alt text](<Image_map/beach output.png>)
+![Beach Output](Image_map/beach output.png)
 
 ~~~~~~~
 
