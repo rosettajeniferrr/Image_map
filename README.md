@@ -241,23 +241,61 @@ p{
     color: white;
    
 }
+--------
+urls.py 
+
+from django.urls import path
+from mapp_app import views
+
+urlpatterns = [
+    path('', views.home, name='home'),
+    path('mount', views.mount, name='mount'),
+    path('flight', views.flight, name='flight'),
+    path('shop', views.shop, name='shop'),
+    path('church', views.church, name='church'),
+    path('beach', views.beach, name='beach'),
+]
+------
+
+views.py
+from django.shortcuts import render
+
+def home(request):
+    return render(request,'map_image.html')
+
+def mount(request):
+    return render(request,'Mount.html')
+
+def flight(request):
+    return render(request,'Flight.html')
+
+def shop(request):
+    return render(request,'Shop.html')
+
+def church(request):
+    return render(request,'Church.html')
+
+def beach(request):
+    return render(request,'Beach.html')
+-------
+
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 # OUTPUT
 ~~~~~~~
-Image_map/map output.png
+![alt text](<Image_map/map output.png>)
 
-Image_map/mount output.png
+![alt text](<Image_map/mount output.png>)
 
-Image_map/airport output.png
+![alt text](<Image_map/airport output.png>)
 
-Image_map/tnagar output.png
+![alt text](<Image_map/tnagar output.png>)
 
-Image_map/santhome output.png
+![alt text](<Image_map/santhome output.png>)
 
-Image_map/beach output.png
+![alt text](<Image_map/beach output.png>)
 
 ~~~~~~~
 
