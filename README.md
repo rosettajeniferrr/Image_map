@@ -286,7 +286,8 @@ def beach(request):
 # OUTPUT
 ~~~~~~~
 
-Image_map/mapp_proj/Image_map/mapout.png
+santhomeout.png
+tnagarout.png
 
 
 ~~~~~~~
