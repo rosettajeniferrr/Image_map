@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Image Map</title>
+        <link rel="stylesheet" href="{% static 'CSS.css' %}">
+        <link rel="icon" href="{% static 'mapicon.png' %}"
+
+    </head>
+    <body class="main-page">
+        <center>
+            <h1> <u><b>CHENNAI </b></u>
+        </center>
+    </h1>
+    <center>
+        <img src="{% static 'mapp_ss.png'%}" usemap="#image_map" class="center-img">
+        <map name="#image_map">
+            <area shape="rect" coords="500,440,370,301" alt="Ractangle" href="/mount" title="St.Thomas Mount">
+            <area shape="circle" coords="141,523,109" alt="Circle" href="/flight" title="Chennai International Airport"> 
+            <area shape="rect" coords="770,10,900,100" alt="Ractangle" href="/shop" title="T.Nagar">
+            <area shape="circle" coords="1220,200,110" alt="Circle" href="/church" title="Santhome Cathedral Bascilica">
+            <area shape="circle" coords="1100,460,75" alt="Circle" href="/beach" title="Adyar Beach">
+
+        </map>
+    </center>
+    </body>
+</html>

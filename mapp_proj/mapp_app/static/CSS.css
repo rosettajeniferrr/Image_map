@@ -1,0 +1,67 @@
+body.main-page{
+    background-color: rgb(0, 0, 0); 
+    color: white;
+    font-family: "Palatino Linotype"; 
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+body.main-page img {
+    height: 600px;         
+    width: 1380px;            
+    border: 4px solid rgb(203, 203, 203); 
+    
+}
+
+body.new-page {
+    background-color: black;
+    color: white;
+    font-family:"Lucida Calligraphy";
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+body.mount1 h2.page-title {
+    color: rgb(65, 65, 227);
+}
+
+body.flight1 h2.page-title{
+    color: rgb(254, 190, 71);
+}
+
+body.shop1 h2.page-title{
+    color: rgb(36, 155, 0);
+}
+
+body.church1 h2.page-title{
+    color: rgb(255, 53, 53);
+}
+
+body.beach1 h2.page-title{
+    color: rgb(254, 190, 71);
+}
+
+p{
+    font-family:"Palatino Linotype";
+    font-size: 23.5px;
+}
+
+.left-img {
+    float: left;
+    border: 2px solid gray;
+    width: 50%;
+    margin-right: 20px;
+}
+
+.right-text {
+    float: right;
+    width: 50%;
+    text-align: left;
+    color: white;
+   
+}
+
+
+
