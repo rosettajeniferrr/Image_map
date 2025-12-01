@@ -286,7 +286,7 @@ def beach(request):
 # OUTPUT
 ~~~~~~~
 
-santhomeout.png
+![alt text](<santhomeout.png>)
 tnagarout.png
 
 
