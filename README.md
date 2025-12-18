@@ -23,10 +23,9 @@ Write HTML programs for all the regions identified.
 Execute the programs and publish them.
 
 # CODE
-~~~~~~~~~~~~~~~~
 
 map_image.html 
-
+```
 {% load static %}
 <!DOCTYPE html>
 
@@ -55,10 +54,10 @@ map_image.html
     </center>
     </body>
 </html>
------
+```
 
 Mount.html
-
+```
 {% load static %}
 <html>
     <head>
@@ -78,10 +77,10 @@ Mount.html
         </div>
     </body>
 </html>
-------
+```
 
 Flight.html
-
+```
 {% load static %}
 <html>
     <head>
@@ -102,10 +101,10 @@ Flight.html
         </div>
     </body>
 </html>
--------
+```
 
 Shop.html
-
+```
 {% load static %}
 <html>
     <head>
@@ -125,10 +124,9 @@ Shop.html
         </div>
     </body>
 </html>
---------
-
+```
 Church.html
-
+```
 {% load static %}
 <html>
     <head>
@@ -149,10 +147,9 @@ Church.html
     </div>
     </body>
 </html>
--------
-
+```
 Beach.html
-
+```
 {% load static %}
 <html>
     <head>
@@ -173,10 +170,9 @@ Beach.html
         </div>
     </body>
 </html>
---------
-
+```
 CSS.css
-
+```
 body.main-page{
     background-color: rgb(0, 0, 0); 
     color: white;
@@ -241,9 +237,9 @@ p{
     color: white;
    
 }
---------
+```
 urls.py 
-
+```
 from django.urls import path
 from mapp_app import views
 
@@ -255,9 +251,9 @@ urlpatterns = [
     path('church', views.church, name='church'),
     path('beach', views.beach, name='beach'),
 ]
-------
-
+```
 views.py
+```
 from django.shortcuts import render
 
 def home(request):
@@ -277,11 +273,7 @@ def church(request):
 
 def beach(request):
     return render(request,'Beach.html')
--------
-
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
+```
 
 # OUTPUT
 ![alt text](mapout.png)
